@@ -1,0 +1,18 @@
+﻿{
+    "name": "TestPackage",
+    "version": "",
+    "allowPackageTelemetry": true,
+    "propertyEditors": [
+        {
+            "alias": "TestPropertyEditor",
+            "name": "TestPropertyEditor",
+            "icon": "icon-box",
+            "editor": {
+                "view": "~/App_Plugins/TestPackage/editor.html"
+            }
+        }
+    ],
+    "javascript": [
+        "~/App_Plugins/TestPackage/controller.js"
+    ]
+}
